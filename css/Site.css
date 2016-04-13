@@ -1,0 +1,1501 @@
+/* Site-wide CSS */
+
+/*#allcontent {
+	width: 1200px;
+	}*/
+
+#mainpgcontent {
+	margin-top: 2em;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 100px;
+	height:950px;
+	width: 1100px;
+	background-color: #ffffff;
+	border: 1.5px solid;
+	}
+	
+#title {
+	position: absolute;
+	left: 250px;
+	right: 200px;
+	width: 600px;
+	top:-10px;
+	}
+
+
+h1 {
+	font-family: "Courier New", serif;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 70px;
+	margin-bottom: 0.3em;
+	color: #000000;
+	z-index: 1;
+	}
+	
+h2 {
+	font-family: "Courier New", serif;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+	margin-top: 0em;
+	color: #000000;
+	margin-top: 0em;
+	}
+	
+h3 {
+	font-family: "Courier New", serif;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 28px;
+	color: #000000;
+	}
+	
+#subtitle {
+	position: absolute;
+	top: 90px;
+	left: 770px;
+	}
+
+h4 {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 10px;
+	color: #000000;
+	}
+	
+h5 {
+	font-family: "Courier New", serif;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 0px;
+	margin-bottom: 0em;
+	color: #000000;
+	}
+
+h6 {
+	font-family: "Courier New", serif;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 16px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	color: #000000;
+	}
+
+	
+p {
+	font-family: "Segoe UI", sans-serif;
+	font-size: 12pt;
+	font-weight: normal;
+	line-height: 25px;
+	color: #000000;
+	}
+
+#about {
+	position: absolute;
+	width: 270px;
+	height: 450px;
+	float: right;
+	right: 55px;
+	padding-left: 30px;
+	top: 120px;
+	padding-bottom: 300px;
+	padding-top: 20px;
+	border-left:thin solid #000000; 
+	}
+
+#lobster {
+	position: absolute;
+	top: 830px;
+	left: 900px;
+		}
+		
+#map {
+	position: relative;
+	top: 110px;
+	left: 10px;
+	float: left;
+	width: 500px; 
+	}
+
+
+	
+a:link {
+		color: #ff1919;
+		text-decoration: none;
+		}
+		
+a:hover {
+	color: #ff9900;
+	text-decoration: none;
+	}
+
+a:visited {
+	color: #808080;
+	text-decoration: none;
+	}
+	
+
+.info {
+	position: absolute;
+	width: 200px;
+	top: 70px;
+	left: 300px;
+	border-left:thin solid #000000; padding-left: 10px;
+	}
+	
+.popupPic {
+	position: absolute;
+	width: 200px;
+	top: 75px;
+	left: 25px;
+	}
+	
+.close {
+	font-family: "Segoe UI", sans-serif;
+	cursor: pointer;
+	position: relative;
+	float: right;
+	left: -20px; 
+	top: -60px;
+	}
+
+		
+#pinbureau {
+	position: absolute;
+	left: 300px; top: 400px; bottom: 500px; right: 500px;
+	padding: 0;
+	float: left;
+	cursor: pointer;
+	}
+
+#bureaubrief {
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	padding-top: 0px; padding-bottom: 10px; padding-right: 20px; padding-left: 30px;
+	width: 500px;
+	height: 300px;
+	background-color: #ffa375;
+	border: solid black 1.5px;
+	}
+
+	
+#pinBC {
+	position: absolute;
+	left: 570px; top: 220px; bottom: 500px; right: 500px;
+	padding:0;
+	cursor: pointer;
+	}
+	
+#briefBC {
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	padding-top: 0px; padding-bottom: 20px; padding-right: 20px; padding-left: 20px;
+	width: 500px;
+	height: 300px;
+	background-color: #ffa375;
+	border: solid black 1.5px;
+	}
+	
+	#infoBC {
+		position: absolute;
+		height: 150px;
+		top: 10px;
+		border-left: 1.5px solid;
+		padding-left: 20px; padding-top: 60px;
+		}
+	
+#pinCemetery {
+	position: absolute;
+	left: 370px; top: 180px; bottom: 500px; right: 700px;
+	padding: 0;
+	cursor: pointer;
+	}
+
+#briefCemetery {
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	padding-top: 0px; padding-bottom: 20px; padding-right: 20px; padding-left: 20px;
+	width: 500px;
+	height: 400px;
+	background-color: #ffa375;
+	border: solid black 1.5px;
+	}
+	
+	#infoCemetery {
+		position: absolute;
+		height: 246px;
+		top: 10px;
+		border-left: 1.5px solid;
+		padding-left: 20px; padding-top: 60px;
+		}
+	
+#pinSO {
+	position: absolute;
+	left: 400px; top: 150px; bottom: 700px; right: 700px;
+	padding: 0;
+	cursor: pointer;
+	}
+	
+#briefSO {
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	padding-top: 0px; padding-bottom: 20px; padding-right: 20px; padding-left: 20px;
+	width: 500px;
+	height: 300px;
+	background-color: #ffa375;
+	border: solid black 1.5px;
+	}
+	
+	#infoSO {
+		position: absolute;
+		height: 205px;
+		top: 10px;
+		border-left: 1.5px solid;
+		padding-left: 35px; padding-top: 20px;
+		}
+	
+#pintourSJ {
+	position: absolute;
+	left: 430px; top: 370px; bottom: 500px; right: 700px;
+	cursor: pointer;
+	}
+	
+#brieftourSJ {
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	padding-top: 0px; padding-bottom: 150px; padding-right: 20px; padding-left: 20px;
+	width: 500px;
+	height: 300px;
+	background-color: #ffa375;
+	border: solid black 1.5px;
+	}
+	
+	#infotourSJ {
+		height: 345px;
+		position: absolute;
+		top: 10px;
+		border-left: 1.5px solid;
+		padding-left: 20px;
+		}
+	
+#pinPassage {
+	position: absolute;
+	left: 380px; top: 300px; bottom: 500px; right: 700px;
+	cursor: pointer;
+	}
+	
+	#briefPassage{
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	padding-top: 0px; padding-bottom: 20px; padding-right: 20px; padding-left: 20px;
+	width: 550px;
+	height: 390px;
+	background-color: #ffa375;
+	border: solid black 1.5px;
+	}
+	
+	#infoPassage {
+		position: absolute;
+		top: 10px;
+		left: 35px;
+		border-left: 1.5px solid;
+		padding-left: 20px;
+		width: 200px;
+		}
+		
+	#picPassage {
+		position: absolute;
+		top:100px;
+		bottom: 0px;
+		left: 10px;
+		padding: 0px;
+		}
+	
+#pinPB{
+	position: absolute;
+	left: 360px; top: 210px; bottom: 500px; right: 700px;
+	cursor: pointer;
+	}
+	
+	#briefPB{
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	padding-top: 0px; padding-bottom: 20px; padding-right: 20px; padding-left: 20px;
+	width: 500px;
+	height: 300px;
+	background-color: #ffa375;
+	border: solid black 1.5px;
+	}
+	
+	#infoPB {
+		height: 190px;
+		position: absolute;
+		top: 10px;
+		border-left: 1.5px solid;
+		padding-left: 20px; padding-top: 30px;
+		}
+	
+#pinFranz {
+	position: absolute;
+	left: 440px; top: 250px; bottom: 500px; right: 800px;
+	cursor: pointer;
+	}
+	
+	#briefFranz{
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	padding-top: 0px; padding-bottom: 20px; padding-right: 20px; padding-left: 20px;
+	width: 500px;
+	height: 490px;
+	background-color: #ffa375;
+	border: solid black 1.5px;
+	}
+	
+	#infoFranz {
+		position: absolute;
+		top: 7px;
+		left: -30px;
+		border-left: 1.5px solid;
+		padding-left: 40px; padding-top: 50px; padding-bottom: 68px;
+		}
+	
+#pinPorteSD {
+	position: absolute;
+	left: 430px; top: 290px; bottom: 500px; right: 700px;
+	cursor: pointer;
+	}
+	
+	#briefPorteSD{
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	padding-top: 0px; padding-bottom: 130px; padding-right: 20px; padding-left: 20px;
+	width: 500px;
+	height: 300px;
+	background-color: #ffa375;
+	border: solid black 1.5px;
+	}
+	
+	#infoPorteSD {
+		position: absolute;
+		top:40px;
+		border-left: solid 1.5px #000000;
+		padding-left: 20px; padding-bottom: 20px; padding-top: 30px;
+		}
+	
+	
+#pinFlowers {
+	position: absolute;
+	left: 430px; top: 395px; bottom: 500px; right: 700px;
+	cursor: pointer;
+	}
+	
+	#briefFlowers {
+		position: absolute;
+		left: 200px;
+		top: 200px;
+		padding-top: 0px; padding-bottom: 95px; padding-right: 20px; padding-left: 20px;
+		width: 500px;
+		height: 300px;
+		background-color: #ffa375;
+		border: solid black 1.5px;
+		}
+		
+	#Flowersmain {
+		position: absolute;
+		top: 120px;
+		left: 30px;
+		}
+	
+#pinDauphine {
+	position: absolute;
+	left: 390px; top: 380px; bottom: 500px; right: 700px;
+	cursor: pointer;
+	}
+	
+	#briefDauphine{
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	padding-top: 0px; padding-bottom: 150px; padding-right: 20px; padding-left: 20px;
+	width: 500px;
+	height: 300px;
+	background-color: #ffa375;
+	border: solid black 1.5px;
+	}
+	
+	#infoDauphine{
+		position: absolute;
+		top: 10px;
+		height: 350px;
+		padding-left: 25px;
+		border-left: 1.5px solid black;
+		}
+	
+#pinMeslay {
+	position: absolute;
+	left: 460px; top: 320px; bottom: 500px; right: 700px;
+	cursor: pointer;
+	}
+	
+	#briefMeslay{
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	padding-top: 0px; padding-bottom: 40px; padding-right: 20px; padding-left: 20px;
+	width: 500px;
+	height: 310px;
+	background-color: #ffa375;
+	border: solid black 1.5px;
+	border: solid black 1.5px;
+	}
+	
+	#infoMeslay {
+		position: absolute;
+		left: -50px;
+		border-left: thin solid;
+		padding-left: 20px;
+		padding-top: 40px; padding-bottom: 30px;
+		top:20px;
+		}
+	
+#pinPompidou {
+	position: absolute;
+	left: 440px; top: 365px; bottom: 500px; right: 700px;
+	cursor: pointer;
+	}
+	
+	#briefPompidou{
+	position: absolute;
+	left: 200px;
+	top: 200px;
+	padding-top: 0px; padding-bottom: 20px; padding-right: 20px; padding-left: 20px;
+	width: 500px;
+	height: 400px;
+	background-color: #ffa375;
+	border: solid black 1.5px;
+	}
+	
+	#infoPompidou {
+		position: absolute;
+		left: -50px;
+		top: 20px;
+		width: 250px;
+		padding-top: 0px; padding-bottom: 20px; padding-right: 20px; padding-left: 20px;
+		border-left: thin solid;
+		height: 250px;
+		}
+	
+	#picPompidou {
+		position: absolute;
+		top: 90px;
+		}
+	
+
+
+p.locationtitle {
+	font-family: "Courier New", serif;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 30px;
+	margin-bottom: 0.2em;
+	color: #000000;
+	margin-top: 2em;
+	}
+
+#locationcontent {
+	margin-top: 2em;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	height: 1000px;
+	width: 900px;
+	background-color: #ffffff;
+	border: 1.5px solid;
+	}	
+	
+	#locationcontentCemetery {
+		margin-top: 2em;
+		position: relative;
+		margin-right: auto;
+		margin-left: auto;
+		height: 1300px;
+		width: 900px;
+		background-color: #ffffff;
+		border: 1.5px solid;
+		}
+		
+	#minimapCemetery {
+		position: absolute;
+		left: 500px;
+		top: 20px;
+		}
+		
+#locationinfo {
+	position: absolute;
+	width: 800px;
+	float: left;
+	padding-right: 0px;
+	left: 50px;
+	top: 600px;
+	}
+
+	#tourSJinfo {
+		position: absolute;
+		width: 300px;
+		float: left;
+		padding-right: 0px;
+		left: 510px;
+		top: 330px;
+		}
+		
+	#locationinfoCemetery {
+		position: absolute;
+		width: 800px;
+		float: left;
+		padding-right: 0px;
+		left: 50px;
+		top: 680px;
+		}
+		
+	#locationinfoPompidou {
+		position: absolute;
+		float: left;
+		width: 800px;
+		padding-right: 0px;
+		left: 50px;
+		top: 680px;
+		}
+	
+
+p.pull {
+	font-family: "Courier New", serif;
+	line-height: 24pt;
+	font-weight: bold;
+	position: absolute;
+	top: 20px;
+	left: 100px;
+	width: 250px;
+	margin-bottom: 0em;
+	z-index: 1;
+		}
+		
+	p.pullPompidou {
+		position: absolute;
+		font-family: "Courier New", serif;
+		line-height: 60px;
+		z-index: 0;
+		top: 290px;
+		left: 470px;
+		width: 300px;
+		padding-left: 60px; padding-top: 140px; padding-bottom: 0px;
+		height: 205px;
+		margin-bottom: 0em;
+		background-color: #ffa375;
+		}
+		
+#pullquote {
+	position: absolute;
+	z-index: 0;
+	top: 300px;
+	left: 470px;
+	width: 370px;
+	height: 300px;
+	margin-bottom: 0em;
+	background-color: #ffa375;
+	}
+	
+	#pullBC {
+		position: absolute;
+		font-family: "Courier New", serif;
+		line-height: 60px;
+		z-index: 0;
+		top: 300px;
+		left: 490px;
+		width: 300px;
+		padding-left: 60px; padding-top: 70px; 
+		height: 190px;
+		margin-bottom: 0em;
+		background-color: #ffa375;
+		}
+		
+	#captionBC {
+		position: absolute;
+		top: 550px;
+		left: 50px;
+		}
+		
+	#pullSO {
+		position: absolute;
+		font-family: "Courier New", serif;
+		line-height: 30px;
+		z-index: 0;
+		top: 290px;
+		left: 480px;
+		width: 250px;
+		padding-left: 60px; padding-right: 30px; padding-top: 70px; padding-bottom: 35px;
+		height: 190px;
+		margin-bottom: 0em;
+		background-color: #ffa375;
+		}
+		
+		#captionSO {
+			position: absolute;
+			top: 580px;
+			left: 50px;
+			}
+		
+		#locationcolSO {
+			position: absolute;
+			top: 20px;
+			-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+	-moz-column-gap:100px; /* Firefox */
+	-webkit-column-gap:150px; /* Safari and Chrome */
+	column-gap:100px;
+	column-width: 300px;
+	-moz-column-width:300px; /* Firefox */
+	-webkit-column-width:300px;
+			position: absolute;
+		width: 750px;
+		padding-right: 0px;
+		left: 0px;
+		top: 40px;
+			}
+			
+		#locationcontentSO {
+			position: relative;
+			margin-top: 2em;
+		position: relative;
+		margin-right: auto;
+		margin-left: auto;
+		height: 1200px;
+		width: 900px;
+		background-color: #ffffff;
+		border: 1.5px solid;
+			}
+			
+	#pullFlowers {
+		position: absolute;
+		font-family: "Courier New", serif;
+		line-height: 30px;
+		z-index: 0;
+		top: 282px;
+		left: 480px;
+		width: 250px;
+		padding-left: 60px; padding-right: 30px; padding-top: 80px; padding-bottom: 10px;
+		height: 190px;
+		background-color: #ffa375;
+		}
+		
+	#captionFlowers {
+		position: absolute;
+		left: 50px;
+		top:565px;
+		font-size: 10pt;
+		}
+		
+	#pullPassage {
+		position: absolute;
+		font-family: "Courier New", serif;
+		line-height: 30px;
+		z-index: 0;
+		top: 292px;
+		left: 420px;
+		width: 200px;
+		padding-left: 80px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px;
+		height: 190px;
+		background-color: #ffa375;
+		}
+		
+		#captionPassage {
+			position:absolute;
+			top:580px;
+			left: 100px;
+			font-size: 10pt;
+			}
+			
+			#picPassage {
+			position: absolute;
+			width: 600px;
+			float: left;
+			right: 400px;
+			left:100px;
+			top:300px;
+				}
+
+				
+		#locationcontentpassage{
+			position: relative;
+			margin-top: 2em;
+		position: relative;
+		margin-right: auto;
+		margin-left: auto;
+		height: 1200px;
+		width: 900px;
+		background-color: #ffffff;
+		border: 1.5px solid;
+			}
+		
+		#locationcolPassage {
+			
+			-moz-column-count:2; /* Firefox */
+		-webkit-column-count:2; /* Safari and Chrome */
+		column-count:2;
+		-moz-column-gap:100px; /* Firefox */
+		-webkit-column-gap:100px; /* Safari and Chrome */
+		column-gap:100px;
+		column-width: 250px;
+		-moz-column-width:250px; /* Firefox */
+		-webkit-column-width:250px; /* Safari and Chrome */
+		position: absolute;
+		width: 600px;
+		padding-right: 0px;
+		left: 50px;
+		top: 40px;
+			}
+
+			
+		#metroPassagepic {
+		position: absolute;
+		top: 430px;
+		left: 30px;
+		}
+		
+			
+		#metropassage {
+			position: absolute;
+			top: 420px;
+			left: 70px;
+			font-family: "Courier New", serif;
+			}
+	
+#quotemark {
+	font-family: "Coustard", serif;
+	font-size: 100pt;
+	position: absolute;
+	top:25px;
+	left: -85px;
+		}
+		
+		#quotemarkBC {
+		font-family: "Coustard", serif;
+		font-size: 100pt;
+		position: absolute;
+		top:90px;
+		left: 0px;
+			}
+			
+		#quotemarkPompidou {
+			font-family: "Coustard", serif;
+		font-size: 100pt;
+		position: absolute;
+		top:160px;
+		left: 0px;
+			}
+			
+		#quotemarkSO {
+			font-family: "Coustard", serif;
+		font-size: 100pt;
+		position: absolute;
+		top:80px;
+		left: -4px;
+			}	
+			
+		#quotemarkFlowers{
+			font-family: "Coustard", serif;
+		font-size: 100pt;
+		position: absolute;
+		top:85px;
+		left: 0px;
+			}	
+			
+		#quotemarkPassage {
+			font-family: "Coustard", serif;
+		font-size: 100pt;
+		position: absolute;
+		top:95px;
+		left: 0px;
+			}
+
+#locationheaders {
+	position: absolute;
+	width: 600px;
+	top: 100px;
+	padding-left: 50px; /*from border of container, not of page */
+	
+	font-weight: normal;
+	font-size: 34px;
+	line-height: 30px;
+	margin-top: 0em;
+	
+		}
+		
+	#locationheadersSO {
+		position: absolute;
+		width: 500px;
+		top: 70px;
+		padding-left: 50px; /*from border of container, not of page */
+		
+		font-weight: normal;
+		font-size: 34px;
+		line-height: 60px;
+		margin-top: 0em;
+		
+		}
+		
+	#locationheadersFlowers{
+		position: absolute;
+		width: 500px;
+		top: 70px;
+		padding-left: 50px; /*from border of container, not of page */
+		
+		font-weight: normal;
+		font-size: 34px;
+		line-height: 60px;
+		margin-top: 0em;
+		
+		}	
+		
+#minimap {
+	position: absolute;
+	left: 545px;
+	top: 20px;
+	cursor: pointer;
+	}
+	
+#mainpic {
+	position: absolute;
+	width: 600px;
+	float: left;
+	right: 400px;
+	left: 50px;
+	top:300px;
+	}
+	
+	#picBrauner {
+		position: absolute;
+	width: 600px;
+	float: left;
+	right: 400px;
+	left: 60px;
+	top:290px;
+		}
+		
+		#captionBrauner {
+			position: absolute;
+			left: 50px;
+			top: 650px;
+			font-size: 12px;
+			}
+	
+	#picSoupault{
+		position: absolute;
+		z-index: 0;
+		top: 290px;
+		left: 500px;
+		height: 290px;
+		margin-bottom: 0em;
+		}
+		
+		#captionSoupault{
+		position: absolute;
+		left: 500px;
+		top: 650px;
+		font-size: 12px;
+			}
+		
+	#picBraunerIllus {
+		position: absolute;
+		top: 330px;
+		left: 30px;
+		}
+		
+		#captionBraunerIllus{
+		position: absolute;
+		top: 530px;
+		left: 170px;
+		font-size: 12px;
+		
+			}
+	
+	#picDali {
+		position: absolute;
+	width: 600px;
+	float: left;
+	right: 400px;
+	left:85px;
+	top:300px;
+		}
+		
+	
+		
+#bottompic {
+	position: absolute;
+	top: 340px;
+	left: 40px;
+	}
+	
+#bottompic2 {
+	position: absolute;
+	top: 340px;
+	left: 100px;
+	}
+	
+#bottompic3 {
+	position: absolute;
+	top: 340px;
+	left: 200px;
+	}
+		
+
+/*
+#pullquotebg {
+	z-index: -1;
+	position: relative;
+	top: -260px;
+	float: right;
+	left: 400px;
+	width: 500px;
+	background-co
+	} 
+	*/
+	
+	
+#metroBCpic {
+	position: absolute;
+	top: 180px;
+	left: 5px;
+	}
+	
+	#metroCemeterypic {
+		position: absolute;
+		top: 570px;
+		left: 5px;
+		}
+		
+	#metroPompidoupic {
+		position: absolute;
+		top: 265px;
+		}
+		
+	
+		
+	#metroFlowerspic {
+		position: absolute;
+		top: 260px;
+		}
+		
+	
+#metro {
+	font-family: "Courier New", serif;
+	position: absolute;
+	top: 250px;
+	left: 40px;
+	}
+	
+	#metroBC {
+		font-family: "Courier New", serif;
+		position: absolute;
+		top: 167px;
+		left: 40px;
+		}
+		
+	#metroCemetery {
+		font-family: "Courier New", serif;
+		position: absolute;
+		top: 556px;
+		left: 40px;
+		}
+		
+	#metroSO {
+		font-family: "Courier New", serif;
+		position: absolute;
+		top: 475px;
+		left: 40px;
+		}
+		
+	#metroSOpic {
+		position: absolute;
+		top: 485px;
+		}
+
+#locationcontentPB {
+	margin-top: 2em;
+		position: relative;
+		margin-right: auto;
+		margin-left: auto;
+		height: 1100px;
+		width: 900px;
+		background-color: #ffffff;
+		border: 1.5px solid;
+	}
+	
+	#captionPB {
+		position: absolute;
+		left: 100px;
+		top: 810px;
+		}
+	
+#minimapPB {
+	position: absolute;
+	left: 500px;
+	top: 20px;
+	}
+		
+#locationheadersPB{
+		position: absolute;
+		width: 500px;
+		top: 120px;
+		left: 100px; /*from border of container, not of page */
+		
+		font-weight: normal;
+		font-size: 34px;
+		line-height: 60px;
+		margin-top: 0em;
+	}
+	
+#locationcolPB{
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+	-moz-column-gap:50px; /* Firefox */
+	-webkit-column-gap:50px; /* Safari and Chrome */
+	column-gap:50px;
+	column-width: 225px;
+	-moz-column-width:225px; /* Firefox */
+	-webkit-column-width:225px; /* Safari and Chrome */
+	position: absolute;
+		width: 600px;
+		float: left;
+		padding-right: 0px;
+		left: 100px;
+		top: 850px;
+	}
+	
+#metropicPB {
+	position: absolute;
+		top: 992px;
+		left: 100px;
+	}
+	
+#metroPB {
+	font-family: "Courier New", serif;
+		position: absolute;
+		top: 980px;
+		left: 140px;
+	}
+	
+#mainpicPB {
+	position: absolute;
+	width: 600px;
+	float: left;
+	right: 400px;
+	left: 100px;
+	top:290px;
+	}
+
+#metropicDauphine {
+	position: absolute;
+		top: 300px;
+		left: 10px;
+	}
+	
+	#metroDauphine {
+		font-family: "Courier New", serif;
+		position: absolute;
+		top: 287px;
+		left: 45px;
+		}
+		
+	#pullDauphine {
+		position: absolute;
+		font-family: "Courier New", serif;
+		line-height: 30px;
+		z-index: 0;
+		top: 292px;
+		left: 460px;
+		width: 200px;
+		padding-left: 80px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px;
+		height: 244px;
+		background-color: #ffa375;
+		}
+		
+	#captionDauphine {
+		position: absolute;
+		top: 635px;
+		left: 50px;
+		}
+		
+	#quotemarkDauphine {
+			font-family: "Coustard", serif;
+		font-size: 100pt;
+		position: absolute;
+		top:85px;
+		left: 10px;
+			}
+			
+	#minimapDauphine {
+	position: absolute;
+	left: 470px;
+	top: 40px;
+	}
+	
+#locationcolDauphine {
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+	-moz-column-gap:100px; /* Firefox */
+	-webkit-column-gap:100px; /* Safari and Chrome */
+	column-gap:100px;
+	column-width: 225px;
+	-moz-column-width:225px; /* Firefox */
+	-webkit-column-width:225px; /* Safari and Chrome */
+	position: absolute;
+		width: 700px;
+		float: left;
+		padding-right: 0px;
+		left: 10px;
+		top: 80px;
+	}
+
+#locationcontentFranz {
+	margin-top: 2em;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	height: 1100px;
+	width: 900px;
+	background-color: #ffffff;
+	border: 1.5px solid;
+		}
+		
+#metroFranz {
+	font-family: "Courier New", serif;
+		position: absolute;
+		top: 410px;
+		left: 45px;
+	}
+	
+	#metroFranzpic {
+		position: absolute;
+		top: 420px;
+		left: 10px;
+		}
+		
+	#pullFranz {
+		position: absolute;
+		font-family: "Courier New", serif;
+		line-height: 30px;
+		z-index: 0;
+		top: 282px;
+		left: 460px;
+		width: 200px;
+		padding-left: 80px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px;
+		height: 240px;
+		background-color: #ffa375;
+		}
+		
+		#captionFranz {
+			position: absolute;
+			top:620px;
+			left: 50px;
+			font-size: 10pt;
+			}
+	
+	#quotemarkFranz {
+		font-family: "Coustard", serif;
+		font-size: 100pt;
+		position: absolute;
+		top:85px;
+		left: 10px;
+		}
+		
+	#minimapFranz {
+		position: absolute;
+	left: 470px;
+	top: 40px;
+		}
+		
+	#locationcolFranz {
+		-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+	-moz-column-gap:100px; /* Firefox */
+	-webkit-column-gap:100px; /* Safari and Chrome */
+	column-gap:100px;
+	column-width: 225px;
+	-moz-column-width:225px; /* Firefox */
+	-webkit-column-width:225px; /* Safari and Chrome */
+	position: absolute;
+		width: 700px;
+		float: left;
+		padding-right: 0px;
+		left: 10px;
+		top: 50px;
+		}
+		
+#locationheadersSD {
+		position: absolute;
+		width: 500px;
+		top: 80px;
+		left: 50px; /*from border of container, not of page */
+		
+		font-weight: normal;
+		font-size: 34px;
+		line-height: 60px;
+		margin-top: 0em;
+		}
+		
+		#mainpicSD{
+			position: absolute;
+			width: 600px;
+			float: left;
+			right: 400px;
+			left: 50px;
+			top:302px;
+			}
+			
+		#captionSD{
+			position: absolute;
+			left: 50px;
+			font-size: 11pt;
+			top: 580px;
+			}
+			
+		#locationcolSD {
+			-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+	-moz-column-gap:80px; /* Firefox */
+	-webkit-column-gap:80px; /* Safari and Chrome */
+	column-gap:80px;
+	column-width: 300px;
+	-moz-column-width:300px; /* Firefox */
+	-webkit-column-width:300px; /* Safari and Chrome */
+	position: absolute;
+		width: 700px;
+		float: left;
+		padding-right: 0px;
+		left: 10px;
+		top: 20px;
+			}
+			
+	#metropicSD {
+		position: absolute;
+		top: 332px;
+		left: 10px;
+		}
+		
+	#metroSD {
+		position: absolute;
+		top: 320px;
+		left: 50px;
+		font-family: "Courier New", serif;
+		}
+
+#locationcontentbureau {
+	margin-top: 2em;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	height: 1200px;
+	width: 900px;
+	background-color: #ffffff;
+	border: 1.5px solid;
+	}
+	
+#locationinfobureau {
+	position: absolute;
+	width: 800px;
+	float: left;
+	padding-right: 0px;
+	left: 50px;
+	top: 950px;
+	}
+
+#minimapbureau {
+	position: absolute;
+	left: 500px;
+	top: 40px;
+		}
+		
+#metropicbureau {
+	position: absolute;
+		top: 200px;
+		left: 10px;
+	}
+	
+#metrobureau {
+	position: absolute;
+		top: 188px;
+		left: 50px;
+		font-family: "Courier New", serif;
+	}
+	
+	#captionbureau {
+		position: absolute;
+		top: 870px;
+		left: 50px;
+		}
+
+#locationcontentMeslay {
+		margin-top: 2em;
+		position: relative;
+		margin-right: auto;
+		margin-left: auto;
+		height: 1200px;
+		width: 900px;
+		background-color: #ffffff;
+		border: 1.5px solid;
+		}
+	
+	#captionMeslay {
+		position: absolute;
+		left: 50px;
+		top: 755px;
+		font-size: 11pt;
+		}
+	
+#minimapMeslay {
+		position: absolute;
+		left: 470px;
+		top: 40px;
+		}
+	
+#pullMeslay {
+		position: absolute;
+		font-family: "Courier New", serif;
+		line-height: 30px;
+		z-index: 0;
+		top: 282px;
+		left: 490px;
+		width: 200px;
+		padding-left: 80px; padding-right: 50px; padding-top: 50px; padding-bottom: 50px;
+		height: 375px;
+		background-color: #ffa375;
+	}
+	
+	#quotemarkMeslay {
+		position: absolute;
+		font-family: "Coustard", serif;
+		font-size: 100pt;
+		top:85px;
+		left: 10px;
+		}
+
+#locationinfoMeslay {
+		position: absolute;
+		width: 800px;
+		float: left;
+		padding-right: 0px;
+		left: 50px;
+		top: 800px;
+	}
+
+#locationcontenttourSJ {
+	margin-top: 2em;
+		position: relative;
+		margin-right: auto;
+		margin-left: auto;
+		height: 1000px;
+		width: 900px;
+		background-color: #ffffff;
+		border: 1.5px solid;
+		}
+		
+		#captiontourSJ{
+			position: absolute;
+			
+			top: 530px;
+			left: 0px;
+			}
+		
+#metroMeslay {
+	position: absolute;
+		top: 290px;
+		left: 45px;
+		font-family: "Courier New", serif;
+	}
+	
+#metropicMeslay {
+	position: absolute;
+		top: 300px;
+		left: 5px;
+	}
+
+#locationheaderstourSJ {
+	Position: absolute;
+		top:150px;
+		left: 50px;
+		}
+#mainpictourSJ {
+		position: absolute;
+		top:350px;
+		left: 50px;
+		}
+		
+#metrotourSJ {
+		position: absolute;
+		font-family: "Courier New", serif;
+		top: 590px;
+		left: -410px;
+	}
+	
+#minimaptourSJ {
+	position: absolute;
+	left: 490px;
+	top: 60px;
+	}
+	
+#metropictourSJ {
+		position: absolute;
+		top: 600px;
+		left: -460px;
+	}
+	
+	
+
+	
+p.locationcol {
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+	-moz-column-gap:50px; /* Firefox */
+	-webkit-column-gap:50px; /* Safari and Chrome */
+	column-gap:50px;
+	column-width: 225px;
+	-moz-column-width:225px; /* Firefox */
+	-webkit-column-width:225px; /* Safari and Chrome */
+		}
+		
+		
+p.metro {
+	font-weight:700;
+	font-family: 'Coustard', serif;
+	}
+	
+p.home {
+	font-family: "Miniver", cursive;
+	font-size: 16pt;
+	cursor: pointer;
+	}
+	
+
+	
+	
+	

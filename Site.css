@@ -1,0 +1,52 @@
+/* Site-wide CSS */
+
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	color: #ff0000;
+	}
+	
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	color: #d80000;
+	}
+	
+h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	color: #d80000;
+	}
+
+h4 {
+	font-family: 'Lato', sans-serif;
+	font-weight: normal;
+	color: #d80000;
+	}
+
+	
+p
+	{
+	font-family: Verdana, Tahoma, Helvetica, Arial;
+	font-weight: normal;
+	}
+	
+#map {
+	padding-top: 10px;
+	z-index: 1;
+	}
+	
+#bureaubrief {
+	padding-top: 40px; padding-bottom: 50px; padding-right: 180px; padding-left: 100px;
+	float: left;
+	width: 500px;
+	z-index: 2;
+	}
+	
+#pinbureau {
+	padding-left: 230px; padding-top: 0px; padding-bottom: 2000px; padding-right: 50px;
+	float: left;
+	width: 30px;
+	z-index: 2;
+	}
